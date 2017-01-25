@@ -1,30 +1,13 @@
 console.log('\'Allo \'Allo!');
 
-/*
-var map = new Datamap({
-  element: document.getElementById('container'),
-  scope: 'usa'
-  setProjection: function(element) {
-    var projection = d3.geo.equirectangular()
-      .center([0, 0])
-      .rotate([0, 0])
-      .scale(190);
-      //.translate([element.offsetWidth / 2, element.offsetHeight / 2]);
-    var path = d3.geo.path()
-      .projection(projection);
-
-    return {path: path, projection: projection};
-  }
-});*/
-
 
 function whenClicked(e) {
   // e = event
   //console.log(e);
   console.log(e.target);
-  e.target.properties["mia"] = "mia";
+  //e.target.properties["mia"] = "mia";
   console.log(e.target.properties);
-  e.target.setStyle({fillColor: '#dddddd'});
+  e.target.setStyle({fillColor: '#ff3333'});
 
   // You can make your ajax call declaration here
   //$.ajax(...
