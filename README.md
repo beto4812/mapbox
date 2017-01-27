@@ -1,5 +1,11 @@
 "# mapbox"
 
+Use npm to install dependencies:
+
+```
+npm install
+```
+
 Use npm to install bower:
 
 ```
